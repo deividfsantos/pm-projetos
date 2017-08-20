@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    font-family: "opensans";
+}
+
+@font-face {
+
+      font-family: "opensans";
+      src: url("fonte/OpenSans-Regular.ttf") format("truetype");
+}
+
+.externo{
+    height: 568px;
+    width: 320px;
+    background-color: rgb(230,230,230);
+}
+
+img {
+    width: 300px;
+    height: 168px;
+    margin: 11px 10px 0px 10px;
+    border-radius: 2px 2px 0 0;
+}
+
+.interior{
+    width: 300px;
+    height: 153px;
+    margin: 0px 10px 0px 10px;
+    background-color: white;
+    border-radius: 0 0 2px 2px;
+    box-shadow: 0px 1px 1px #999999;
+}
+
+h3{
+    color: red;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 10px;
+    line-height: 18px;
+}
+
+p{
+    color: #333333;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 10px;
+    line-height: 16px;
+}
+
+.russia, .hora{
+    text-transform: uppercase;
+}
+
+.russia{
+    color: #333333;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 10px;
+    
+}
+
+.hora{
+    color: #999999;
+    font-size: 11px;
+    font-weight: 300;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #b5000d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
