@@ -1,0 +1,107 @@
+*{
+    font-family: "roboto";
+    font-weight: 400;
+    font-size: 13px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background-color: #9a9a9a;
+    padding: 45px;
+}
+
+table{
+    background-color: white;
+    width: 100%;
+}
+
+thead tr:hover{
+    background-color: white;
+}
+
+tr:hover{
+    background-color: #eeeeee;
+}
+
+td{
+    padding: 15px 30px 15px 10px;
+    border-bottom: 1px solid rgba(215,215,215,0.57);
+    margin: 0px;
+    color: #000000;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.box{
+    padding-left: 30px;
+    padding-right: 0;
+}
+
+.titulo {
+    border: none;
+}
+
+.principal td{
+    font-weight: 500;
+    color: #000000;
+    
+    font-size: 14px;
+}
+
+table{
+  border-spacing: 0px;
+  border-radius: 0 0 3px 3px;
+  box-shadow: 0 2px 5px 0 #666;
+}
+
+h1{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.final {
+    text-align: right;
+    padding: 20px;
+    color: rgba(0,0,0,0.54);
+}
+
+span {
+    margin: 20px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+select{
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.5;
+    border: none;
+    background-color: transparent;
+}
+
+.textofim{
+    margin: 0px 40px 0px 40px;
+}
+
+.dir {
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
