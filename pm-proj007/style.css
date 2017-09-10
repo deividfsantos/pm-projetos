@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    font-family: "lato";
+}
+
+ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.logotipo{
+    background-image: url(logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    width: 170px;
+    height: 70px;
+}
+
+.logotipo span{
+    visibility: hidden;
+}
+
+li{
+    display: inline;
+    color: white;
+    border-radius: 3px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+li:hover{
+    border: 1px white solid;
+}
+
+ul{
+    margin-top: 30px;
+}
+
+header{   
+    float: left;
+    width: 100%;
+}
+
+header .container{
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+/*------Corpo-------*/
+
+#topo {
+    background-image: url(fundo.png);
+    background-size: cover;
+    background-position: center;  
+    height: 830px;
+    width: 100%;
+}
+
+.container{
+    width: 960px;
+    margin: 0px auto;
+}
+
+#topo .container{
+    padding-top: 125px;
+    height: 500px;
+}
+
+
+/*------Capa-------*/
+
+.menu-principal {
+    margin-top: 120px;
+    width: 500px;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 50px;
+    color: white;
+}
+
+.subtitulo{
+    font-size: 36px;
+    color: white;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.more{
+    background-color: #ff3d7f;
+    text-decoration: none;
+    padding: 20px 150px 20px 150px;
+    color: white;
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: 300;
+    box-shadow: 0px 6px 0px 0px #a32751;
+}
+
+/*------Conheça-------*/
+
+.container {
+    border: 1px solid transparent;
+}
+
+#conheca .container{
+    height: 550px;
+}
+
+.know {
+    margin: 75px;
+    height: 400px;
+    width: 380px;
+    float: left;
+}
+
+.texto {
+    margin-top: 125px;
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+
+.conhecatitulo {
+    margin: 0 0 20px 0;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.conhecasub {
+    margin-bottom: 45px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.conhecabtn {
+    background-color: #ff3d7f;
+    text-decoration: none;
+    padding: 18px 65px 18px 65px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 300;
+    box-shadow: 0px 6px 0px 0px #a32751;
+}
+
+
+/*--------Depoimento---------*/
+
+#depoimento {
+    
+    border-top: 3px solid #511099;
+}
+
+#depoimento .container {
+    height: 430px;
+    text-align: center;
+}
+
+.imgdepoimento {
+    margin-bottom: 20px;
+}
+
+.centrodepoimento {
+    margin-top: 65px;
+}
+
+.depoimento {
+    font-size: 24px;
+    font-weight: 300;
+}
+ 
+.depoimento h2 {
+    font-weight: 500;
+}
+
+/*--------Convite---------*/
+
+#convite{
+    background-image: url("fundo-convite.png");
+}
+
+#convite .container {
+    height: 420px;
+}
+
+.texto2 {
+    width: 640px;
+    height: 120px;
+    background-color: rgba(255,255,255,0.89);
+    border-radius: 3px;
+    margin: 150px auto;
+    text-align: center;
+
+}
+
+.texto2 input{
+    border: none;
+    background-color: rgba(255,255,255,0.0);
+    color: #4a4a4a;
+    font-size: 24px;
+    font-weight: 400;
+    width: 460px;
+    margin-top: 30px;
+}
+
+
+button{
+    background-image: url("envio.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 35px;
+    border: 0;
+    margin: 50px 0px 0px 20px;
+    cursor: pointer;
+}
+
+/*--------Footer---------*/
+
+footer {
+    
+    background-color: #2a0157;
+    border-top: 3px solid white;
+}
+
+footer .container {
+    height: 90px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer .container div {
+    margin-top: 30px;
+}
+
+
